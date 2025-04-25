@@ -13,7 +13,7 @@ output/
 .env
 
 # venv
-utils/venv 
+utils/
 
 
 # lib

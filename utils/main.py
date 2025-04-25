@@ -10,7 +10,7 @@ os.makedirs("output", exist_ok=True)
 canvas_width = 300
 canvas_height = 300
 
-with open('assets.json', 'r') as f:
+with open('public/assets.json', 'r') as f:
     assets = json.load(f)
 
 def download_image(url):
